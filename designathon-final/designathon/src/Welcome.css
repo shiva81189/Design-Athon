@@ -26,8 +26,8 @@
 
 @media (max-width:500px) {
     .welcome > h1 {
-        padding: 65px;
-        margin-bottom: 0;
+        font-size:40px;
+        padding-bottom: 10px;
     }
 }
 
