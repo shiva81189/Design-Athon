@@ -1,0 +1,51 @@
+.login_container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login_container > form > h5 {
+    margin-bottom: 5px;
+}
+.login_container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+.login_signInButton {
+    background: white;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.login_signInButton:hover {
+    transition: 0.4s ease-in-out;
+    background: #3f51b5;
+    color: white;
+}
+.login_container {
+    min-width: auto;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+    margin: auto;
+    background-color: white;
+}
+.login {
+    background-color: rgb(49, 143, 138);
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.login_registerButton {
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    border-color: darkgrey;
+}

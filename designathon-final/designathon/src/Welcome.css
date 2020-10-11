@@ -1,0 +1,35 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 143, 138);
+}
+
+.welcome > h1 {
+    font-size: 65px;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome .link  {
+    text-decoration: none;
+}
+
+.welcome .link .btn {
+    margin-top: 10px;
+}
+
+@media (max-width:500px) {
+    .welcome > h1 {
+        padding: 65px;
+        margin-bottom: 0;
+    }
+}
+
+
+
